@@ -30,7 +30,7 @@ public class Main {
 				title = sc.nextLine();
 				System.out.printf("내용 : ");
 				body = sc.nextLine();
-
+				
 				Article article = new Article(id, title, body);
 				articles.add(article);
 

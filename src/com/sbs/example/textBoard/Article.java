@@ -7,7 +7,7 @@ public class Article extends Object {
 	public String updateDate;
 	public String title;
 	public String body;
-
+//
 	public Article(int id, String title, String body) {
 		this.id = id;
 		this.title = title;

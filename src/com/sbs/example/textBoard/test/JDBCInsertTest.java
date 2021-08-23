@@ -9,7 +9,7 @@ public class JDBCInsertTest {
 	public static void main(String[] args) {
 		Connection conn = null;
 		PreparedStatement pstat = null;
-
+//
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			String url = "jdbc:mysql://127.0.0.1:3306/text_board?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul&useOldAliasMetadataBehavior=true&zeroDateTimeNehavior=convertToNull";
