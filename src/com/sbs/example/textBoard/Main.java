@@ -1,12 +1,9 @@
 package com.sbs.example.textBoard;
 
-<<<<<<< HEAD
-=======
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
->>>>>>> c9ed6e1 (새 프로젝트 JDBC INSERT 테스트)
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -36,9 +33,7 @@ public class Main {
 
 				Article article = new Article(id, title, body);
 				articles.add(article);
-<<<<<<< HEAD
-=======
-				
+
 				Connection conn = null;
 				PreparedStatement pstat = null;
 
@@ -81,7 +76,6 @@ public class Main {
 					}
 				}
 
->>>>>>> c9ed6e1 (새 프로젝트 JDBC INSERT 테스트)
 				lastArticleId++;
 
 				System.out.println(article);
@@ -107,4 +101,4 @@ public class Main {
 			}
 		}
 	}
-}
+} 
